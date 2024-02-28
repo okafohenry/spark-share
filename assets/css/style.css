@@ -814,7 +814,7 @@ section {
   background-color: #2fba2f !important; }
 
 .bg-gray {
-  background-color: #FAF8FB !important; }
+  background-color: #FAF8FB !important; } 
 
 .bg-white {
   background-color: #ffffff !important; }
@@ -1017,7 +1017,8 @@ section {
 .divider-2 {
   height: 1px;
   width: 100%;
-  background-color: #f8e2ff; }
+  background-color: #f8e2ff; 
+}
 
 .skew-divider {
   width: 100%;
@@ -1038,6 +1039,40 @@ section {
   top: 0;
   background: -o-linear-gradient(left top, #ffffff 49%, #262B47 50%), -o-linear-gradient(140deg, #ffffff 16px, #000 0);
   background: linear-gradient(to right bottom, #ffffff 49%, #262B47 50%), linear-gradient(-50deg, #ffffff 16px, #000 0); }
+
+
+  .navbar-sub {
+    background-color:  #FEFBFF;
+    font-size: 14.5px;
+    font-weight: 500;
+    border-top: 1px solid #f2f2f2cc;
+    border-bottom: 1px solid #f2f2f2cc;
+    margin-top: 20px;
+  }
+  .navbar-sub a {
+    color: rgb(49, 39, 79) !important;
+  }
+  .navbar-sub a:hover {
+    color: #2fba2f !important;
+  }
+
+
+/*------------------------------------*\
+    #Charge EV SECTION
+\*------------------------------------*/
+
+  .charge-ev-section {
+    background-color: #FEFBFF; 
+  }
+
+
+/*------------------------------------*\
+    #Who we help SECTION
+\*------------------------------------*/
+
+  .wwh-section {
+    background-color: #ede8e130;
+  }
 
 /*------------------------------------*\
     #BUTTONS
@@ -1722,14 +1757,18 @@ a.back {
     #HEADER
 \*------------------------------------*/
 .header {
-  height: 100px; }
+  height: 70px; 
+}
   .header.header-transparent {
     background-color: transparent;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1001; }
+    z-index: 1001; 
+  }
+
+
 
 @media screen and (min-width: 992px) {
   .header-2 .navbar-expand-lg > .container,
@@ -1746,15 +1785,19 @@ a.back {
   background-color: #FEFBFF;
   margin-bottom: 0;
   border-radius: 0;
-  min-height: 100px;
+  min-height: 90px;
   border: none;
-  padding: 0; }
+  padding: 0; 
+}
   .header .navbar .navbar-brand {
-    margin-right: 0; }
+    margin-right: 0; 
+  }
     .header .navbar .navbar-brand .logo-dark {
-      display: none; }
+      display: none; 
+    }
     .header .navbar .navbar-brand .logo-light {
-      display: inline-block; }
+      display: inline-block; 
+    }
   .header .navbar .navbar-nav > li {
     margin-right: 38px;
     position: relative;
@@ -1762,7 +1805,8 @@ a.back {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
     .header .navbar .navbar-nav > li:last-child {
-      margin-right: 0; }
+      margin-right: 0; 
+    }
     .header .navbar .navbar-nav > li > a {
       font-family: "Lato", sans-serif;
       font-size: 16px;
@@ -1775,7 +1819,8 @@ a.back {
       display: block;
       -webkit-transition: 0.3s ease-in-out;
       -o-transition: 0.3s ease-in-out;
-      transition: 0.3s ease-in-out; }
+      transition: 0.3s ease-in-out; 
+    }
       @media screen and (min-width: 992px) {
         .header .navbar .navbar-nav > li > a::before {
           position: absolute;
